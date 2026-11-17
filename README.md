@@ -84,10 +84,10 @@ El primer comando actualiza las imágenes y metadatos desde Wikimedia Commons; e
 
 1. Abrí `colab/memoria_viva_colab.ipynb` en Google Colab.
 2. En **Entorno de ejecución → Cambiar tipo de entorno de ejecución**, elegí una GPU si Colab la ofrece; el proyecto se ejecutó con T4.
-3. Ejecutá las celdas en orden. El notebook monta Drive y busca allí la carpeta del proyecto. Si no la encuentra, subí `colab/memoria_viva_colab.zip` cuando lo solicite.
-4. Esperá a que instale dependencias y cargue los modelos. Abrí el enlace temporal de Gradio que aparece al final y dejá activa la celda de lanzamiento mientras usás la app.
+3. Ejecutá las celdas en orden. El notebook te pide subir `colab/memoria_viva_colab.zip` cuando lo solicite.
+4. Esperá a que se instalen las dependencias y se carguen los modelos. Abrí el enlace temporal de Gradio que aparece al final y mantené activa la celda de lanzamiento mientras usás la app.
 
-La VM de Colab es temporal. Guardá en Drive cualquier material que quieras conservar. El enlace compartido de Gradio también es temporal y deja de funcionar cuando termina la sesión.
+La VM de Colab es temporal: al terminar la sesión se pueden perder los archivos que quedaron allí. Descargá los resultados que quieras conservar antes de cerrar Colab. El enlace de Gradio también deja de funcionar cuando termina la sesión.
 
 ## Ejemplos de uso y registro visual
 
